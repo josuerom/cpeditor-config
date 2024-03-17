@@ -20,19 +20,19 @@ default_time_limit=1000
 detached_run_terminal_arguments=-e
 detached_run_terminal_program=xterm
 display_eoln_in_diff=false
-display_stopwatch=false
+display_stopwatch=true
 display_test_case_length_limit=500000
 editor_font=@Variant(\0\0\0@\0\0\0\x32\0U\0\x62\0u\0n\0t\0u\0M\0o\0n\0o\0 \0N\0\x65\0r\0\x64\0 \0\x46\0o\0n\0t\0 \0M\0o\0n\0o@*\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
 editor_theme=Monokai
 extra_bottom_margin=false
-file_problem_binding=@Invalid()
+file_problem_binding=/home/josuerom/workspace/codeforces/src/900/El-edificio-de-los-vecinos-curio.cpp, https://omegaup.com/arena/problem/El-edificio-de-los-vecinos-curio/
 first_time_user=false
 force_close=false
 format_on_auto_save=false
 format_on_manual_save=false
 full_screen_dialog_shown=false
 geometry=@Rect(0 69 1296 1009)
-hide_stopwatch_result=false
+hide_stopwatch_result=true
 html_diff_viewer_length_limit=50000
 input_file_save_path=./${basename}_${1-index}.in
 locale=Espa\xf1ol
@@ -46,7 +46,7 @@ open_old_file_for_old_problem_url=false
 output_display_length_limit=50000
 output_length_limit=500000
 promotion_dialog_shown=false
-recent_files=/home/josuerom/workspace/cpeditor/Sin t\xedtulo-1.cpp, /home/josuerom/workspace/codeforces/E.cpp, /home/josuerom/workspace/codeforces/D.cpp, /home/josuerom/workspace/codeforces/C.cpp, /home/josuerom/workspace/codeforces/B.cpp, /home/josuerom/workspace/codeforces/A.cpp, /home/josuerom/workspace/templates/tem_2bits.cpp
+recent_files=/home/josuerom/workspace/codeforces/src/900/El-edificio-de-los-vecinos-curio.cpp, /home/josuerom/workspace/cpeditor/Sin t\xedtulo-1.cpp, /home/josuerom/workspace/codeforces/E.cpp, /home/josuerom/workspace/codeforces/D.cpp, /home/josuerom/workspace/codeforces/C.cpp, /home/josuerom/workspace/codeforces/B.cpp, /home/josuerom/workspace/codeforces/A.cpp, /home/josuerom/workspace/templates/tem_2bits.cpp
 replace_tabs=true
 restore_old_problem_url=false
 right_splitter_size=@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\x1\x10\0\0\x2\x84\x1\xff\xff\xff\xff\x1\0\0\0\x2\0)
@@ -71,7 +71,7 @@ view_mode=split
 wrap_text=false
 
 [cf]
-path=/home/josuerom/workspace/cf-tools/cf
+path=/usr/bin/cf
 show_toast_messages=true
 
 [clang_format]
@@ -94,10 +94,10 @@ compiler_output_codec=UTF-8
 output_path=${tmpdir}/${basename}
 parentheses=@Variant(\0\0\0\t\0\0\0\x5\0\0\0\a\0(\0\0\0\a\0)\0\0\0\x2\0\0\0\x2\0\0\0\x2\0\0\0\0\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\a\0{\0\0\0\a\0}\0\0\0\x2\0\0\0\x2\0\0\0\x2\0\0\0\0\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\a\0[\0\0\0\a\0]\0\0\0\x2\0\0\0\x2\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\a\0\"\0\0\0\a\0\"\0\0\0\x2\0\0\0\x2\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\a\0'\0\0\0\a\0'\0\0\0\x2\0\0\0\x2\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1)
 run_arguments=
-template_cursor_position_offset_characters=4
+template_cursor_position_offset_characters=7
 template_cursor_position_offset_type=end
 template_cursor_position_regex="int tt = 1;"
-template_path=/home/josuerom/workspace/contest/TEMPLATES/tem_cf.cpp
+template_path=/home/josuerom/workspace/contest/TEMPLATES/tem_cpeditor.cpp
 
 [default_path]
 action\add_pairs_of_test_cases\changes=testcase
@@ -120,7 +120,7 @@ action\save_file\changes="file, testcase, checker"
 action\save_file\uses=${file}
 action\save_test_case_to_a_file\changes=testcase
 action\save_test_case_to_a_file\uses=${testcase}
-names_and_paths=@Variant(\0\0\0\v\0\0\0\x2\0\0\0\xe\0\x63\0h\0\x65\0\x63\0k\0\x65\0r\0\0\0\x42\0/\0h\0o\0m\0\x65\0/\0j\0o\0s\0u\0\x65\0r\0o\0m\0/\0w\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0\x63\0p\0\x65\0\x64\0i\0t\0o\0r), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\xe\0\x63\0o\0n\0t\0\x65\0s\0t\0\0\0\x46\0/\0h\0o\0m\0\x65\0/\0j\0o\0s\0u\0\x65\0r\0o\0m\0/\0w\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0\x63\0o\0\x64\0\x65\0\x66\0o\0r\0\x63\0\x65\0s), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\b\0\x66\0i\0l\0\x65\0\0\0\x42\0/\0h\0o\0m\0\x65\0/\0j\0o\0s\0u\0\x65\0r\0o\0m\0/\0w\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0\x63\0p\0\x65\0\x64\0i\0t\0o\0r), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0s\0\x65\0t\0t\0i\0n\0g\0s\0\0\0\x30\0/\0h\0o\0m\0\x65\0/\0j\0o\0s\0u\0\x65\0r\0o\0m\0/\0\x44\0\x65\0s\0\x63\0\x61\0r\0g\0\x61\0s), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0t\0\x65\0s\0t\0\x63\0\x61\0s\0\x65\0\0\0\x42\0/\0h\0o\0m\0\x65\0/\0j\0o\0s\0u\0\x65\0r\0o\0m\0/\0w\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0\x63\0p\0\x65\0\x64\0i\0t\0o\0r)
+names_and_paths=@Variant(\0\0\0\v\0\0\0\x2\0\0\0\xe\0\x63\0h\0\x65\0\x63\0k\0\x65\0r\0\0\0V\0/\0h\0o\0m\0\x65\0/\0j\0o\0s\0u\0\x65\0r\0o\0m\0/\0w\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0\x63\0o\0\x64\0\x65\0\x66\0o\0r\0\x63\0\x65\0s\0/\0s\0r\0\x63\0/\0\x39\0\x30\0\x30), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\xe\0\x63\0o\0n\0t\0\x65\0s\0t\0\0\0\x46\0/\0h\0o\0m\0\x65\0/\0j\0o\0s\0u\0\x65\0r\0o\0m\0/\0w\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0\x63\0o\0\x64\0\x65\0\x66\0o\0r\0\x63\0\x65\0s), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\b\0\x66\0i\0l\0\x65\0\0\0V\0/\0h\0o\0m\0\x65\0/\0j\0o\0s\0u\0\x65\0r\0o\0m\0/\0w\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0\x63\0o\0\x64\0\x65\0\x66\0o\0r\0\x63\0\x65\0s\0/\0s\0r\0\x63\0/\0\x39\0\x30\0\x30), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0s\0\x65\0t\0t\0i\0n\0g\0s\0\0\0\0), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0t\0\x65\0s\0t\0\x63\0\x61\0s\0\x65\0\0\0V\0/\0h\0o\0m\0\x65\0/\0j\0o\0s\0u\0\x65\0r\0o\0m\0/\0w\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0\x63\0o\0\x64\0\x65\0\x66\0o\0r\0\x63\0\x65\0s\0/\0s\0r\0\x63\0/\0\x39\0\x30\0\x30)
 
 [hot_exit]
 auto_save=false
