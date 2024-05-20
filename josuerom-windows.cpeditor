@@ -1,15 +1,15 @@
 [General]
 tab_width=3
 cursor_width=1
-geometry=@Rect(560 211 800 600)
-editor_font=@Variant(\0\0\0@\0\0\0\x1a\0\x43\0\x61\0s\0\x63\0\x61\0\x64\0i\0\x61\0 \0\x43\0o\0\x64\0\x65@&\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+geometry=@Rect(208 36 1521 1043)
+editor_font=@Variant(\0\0\0@\0\0\0(\0\x41\0g\0\x61\0v\0\x65\0 \0N\0\x65\0r\0\x64\0 \0\x46\0o\0n\0t\0 \0M\0o\0n\0o@*\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
 use_custom_application_font=false
-custom_application_font=@Variant(\0\0\0@\0\0\0.\0M\0o\0n\0o\0n\0o\0k\0i\0 \0N\0\x65\0r\0\x64\0 \0\x46\0o\0n\0t\0 \0M\0o\0n\0o@\"\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+custom_application_font=@Variant(\0\0\0@\0\0\0\x1c\0M\0S\0 \0S\0h\0\x65\0l\0l\0 \0\x44\0l\0g\0 \0\x32@ G<\x1a\xb6\x8a\x4\xff\xff\xff\xff\x5\x1\0\x32\x10)
 default_language=C++
 format_on_manual_save=false
 format_on_auto_save=false
 editor_theme=Monokai
-highlight_error_line=true
+highlight_error_line=false
 detached_run_terminal_program=xterm
 detached_run_terminal_arguments=-e
 auto_complete_parentheses=true
@@ -19,21 +19,21 @@ auto_indent=true
 auto_save=true
 auto_save_interval=1000
 auto_save_interval_type=After the last modification
-wrap_text=false
-beta=true
+wrap_text=true
+beta=false
 replace_tabs=true
-save_tests=false
+save_tests=true
 maximized_window=false
 check_update=false
 opacity=100
 view_mode=split
-splitter_size=@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\x3/\0\0\x2\x4\x1\xff\xff\xff\xff\x1\0\0\0\x1\0)
+splitter_size=@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\x3\x36\0\0\x2\x8b\x1\xff\xff\xff\xff\x1\0\0\0\x1\0)
 right_splitter_size=@ByteArray()
 force_close=false
-show_compile_and_run_only=false
+show_compile_and_run_only=true
 display_eoln_in_diff=false
 save_faster=false
-default_time_limit=1000
+default_time_limit=5000
 output_length_limit=500000
 output_display_length_limit=50000
 message_length_limit=20000
@@ -48,30 +48,30 @@ test_cases_font=@Variant(\0\0\0@\0\0\0\x1a\0\x43\0\x61\0s\0\x63\0\x61\0\x64\0i\0
 extra_bottom_margin=false
 message_logger_font=@Variant(\0\0\0@\0\0\0\x16\0\x43\0o\0u\0r\0i\0\x65\0r\0 \0N\0\x65\0w@$\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
 save_file_on_compilation=true
-save_file_on_execution=false
+save_file_on_execution=true
 restore_old_problem_url=false
 open_old_file_for_old_problem_url=false
 locale=Espa\xf1ol
 ui_style=Dark Fusion
-run_on_empty_testcase=false
-check_on_testcases_with_empty_output=false
-test_case_maximum_height=300
+run_on_empty_testcase=true
+check_on_testcases_with_empty_output=true
+test_case_maximum_height=100
 auto_load_external_changes_if_no_unsaved_modification=true
-ask_for_loading_external_changes=true
-recent_files=D:/Workspace/templates/tem.cpp, D:/Workspace/cp-editor/A.cpp
+ask_for_loading_external_changes=false
+recent_files=D:/Workspace/codeforces/src/900/01B.cpp, D:/Workspace/codeforces/src/900/01A.cpp
 number_of_problems_in_contest=5
 first_time_user=false
 show_only_monospaced_font=true
-total_usage_time=12
+total_usage_time=3722
 promotion_dialog_shown=false
 auto_uncheck_accepted_testcases=false
 full_screen_dialog_shown=false
-display_stopwatch=false
+display_stopwatch=true
 toggle_stopwatch_on_tab_switch=false
 hide_stopwatch_result=false
 error_message_color=red
-warn_message_color=yellow
-file_problem_binding=D:/Workspace/cp-editor/A.cpp, https://codeforces.com/problemset/problem/1790/A
+warn_message_color=green
+file_problem_binding=D:/Workspace/codeforces/src/900/01A.cpp, https://codeforces.com/contest/1971/problem/A, D:/Workspace/codeforces/src/900/01B.cpp, https://codeforces.com/contest/1971/problem/B
 
 [clang_format]
 program=clang-format
@@ -84,14 +84,14 @@ arguments=-m yapf
 style="[style]\nbased_on_style = pep8"
 
 [cpp]
-template_path=D:\\Workspace\\templates\\tem.cpp
-template_cursor_position_regex="1;"
+template_path=D:/Workspace/contest/TEMPLATES/tem_cpeditor.cpp
+template_cursor_position_regex=0
 template_cursor_position_offset_type=end
-template_cursor_position_offset_characters=4
-compile_command="c++ -std=c++17 -Wall -DLOCAL"
+template_cursor_position_offset_characters=6
+compile_command=c++
 output_path=${tmpdir}/${basename}
-run_arguments=
-parentheses=@Variant(\0\0\0\t\0\0\0\x5\0\0\0\a\0(\0\0\0\a\0)\0\0\0\x2\0\0\0\0\0\0\0\x2\0\0\0\0\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\a\0{\0\0\0\a\0}\0\0\0\x2\0\0\0\0\0\0\0\x2\0\0\0\0\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\a\0[\0\0\0\a\0]\0\0\0\x2\0\0\0\0\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\a\0\"\0\0\0\a\0\"\0\0\0\x2\0\0\0\x2\0\0\0\x2\0\0\0\0\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\a\0'\0\0\0\a\0'\0\0\0\x2\0\0\0\x2\0\0\0\x2\0\0\0\0\0\0\0\x2\0\0\0\x1)
+run_arguments=-Wall -O2 -DLOCAL
+parentheses=@Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0(\0\0\0\x2\0\0\0)\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0{\0\0\0\x2\0\0\0}\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0[\0\0\0\x2\0\0\0]\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1)
 compiler_output_codec=UTF-8
 
 [java]
@@ -118,21 +118,21 @@ parentheses=@Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0(\0\0\0\x2\0\0\0)\0\0\0\x2\
 
 [competitive_companion]
 enable=true
-connection_port=10043
+connection_port=10045
 open_new_tab=true
 set_time_limit_for_tab=true
-head_comments=Powered by CP Editor (https://cpeditor.org)\nauthor:  josuerom\ncreated: ${time}
-head_comments_time_format=dd/MM/yyyy hh:mm:ss
+head_comments="  author:  josuerom\n  created: ${time}"
+head_comments_time_format=dd/MM/yy HH:mm:ss
 head_comments_powered_by_cp_editor=false
 
 [hotkey]
-format=Ctrl+F
-kill=Ctrl+Shift+C
-compile_run=F6
-run=F5
-compile=F4
-change_view_mode=F11
-snippets=Ctrl+J
+format=
+kill=
+compile_run=F7
+run=F6
+compile=F5
+change_view_mode=
+snippets=
 
 [hot_exit]
 enable=true
@@ -140,31 +140,25 @@ auto_save=false
 auto_save_interval=20000
 
 [cf]
-path=D:/Program Files/CF Tool/cf.exe
+path=D:/Program Files/CF Tools/cf.exe
 show_toast_messages=true
 
 [lsp]
 path_cpp=clangd
 path_java=
 path_python=python
-use_linting_cpp=false
+use_linting_cpp=true
 use_linting_java=false
 use_linting_python=false
 use_autocomplete_cpp=false
 use_autocomplete_java=false
 use_autocomplete_python=false
-delay_cpp=2000
+delay_cpp=50
 delay_java=2000
 delay_python=2000
 args_cpp=
 args_java=
 args_python=-m pyls
-
-[Language%20Config]
-C%2B%2B\snippet\fori="for (int i = 0; i < n; i++)"
-C%2B%2B\snippet\forj="for (int j = 0; j < n; j++)"
-C%2B%2B\snippet\tem1="/**\n   \x2591\x2591\x2588 \x2588\x2580\x2588 \x2588\x2580 \x2588\x2591\x2588 \x2588\x2580\x2580 \x2588\x2580\x2588 \x2588\x2580\x2588 \x2588\x2580\x2584\x2580\x2588\n   \x2588\x2584\x2588 \x2588\x2584\x2588 \x2584\x2588 \x2588\x2584\x2588 \x2588\x2588\x2584 \x2588\x2580\x2584 \x2588\x2584\x2588 \x2588\x2591\x2580\x2591\x2588\n**/\n#include <bits/stdc++.h>\nusing namespace std;\n\n#ifdef LOCAL\n#include \"../debug.h\"\n#else\n#define debug(...) 42\n#endif\n\n#define ll  long long\n#define br  '\\n'\n\n\n\nvoid solve() {\n}\n\nint main() {\n   ios::sync_with_stdio(false);\n   cin.tie(0);\n   int tt = 1, nc = 1;\n   cin >> tt;\n   while (tt--) {\n#ifdef LOCAL\n      cout << \"Case #\" << n++c << \":\\n\";\n      solve();\n#else\n      solve();\n#endif\n   }\n   return 0;\n}"
-C%2B%2B\snippet\tem2="/**\n *   \x2588\x2580\x2588  \x2588\x2580\x2580\x2584 \x2500\x2580\x2500 \x2580\x2580\x2588\x2580\x2580 \x2588\x2580\x2580 \x2584\x2580 \x2580\x2584\n *   \x2500\x2584\x2580  \x2588\x2580\x2580\x2584 \x2580\x2588\x2580 \x2500\x2500\x2588\x2500\x2500 \x2580\x2580\x2588 \x2588\x2500 \x2500\x2588\n *   \x2588\x2584\x2584  \x2580\x2580\x2580\x2500 \x2580\x2580\x2580 \x2500\x2500\x2580\x2500\x2500 \x2580\x2580\x2580 \x2580\x2584 \x2584\x2580\n**/\n#include <bits/stdc++.h>\nusing namespace std;\n\n#define ll  long long\n#define br  '\\n'\n\nclass RPCProblemSolution {\npublic:\n   static const int N = 1e1 + 20;\n   int a[N], n;\n\n   void Solution() {\n   }\n\n   void TestCase() {\n      int tt = 1, nc = 1;\n      cin >> tt;\n      while (tt--) {\n      #ifdef LOCAL\n         cout << \"Case #\" << nc++ << \":\\n\";\n         Solution();\n      #else\n         Solution();\n      #endif\n      }\n   }\n};\n\nint main() {\n   ios::sync_with_stdio(false);\n   cin.tie(0);\n   RPCProblemSolution cp;\n   cp.TestCase();\n   // cp.Solution();\n   return 0;\n}"
 
 [proxy]
 enabled=true
@@ -175,7 +169,7 @@ user=
 password=
 
 [default_path]
-names_and_paths="@Variant(\0\0\0\v\0\0\0\x2\0\0\0\xe\0\x63\0h\0\x65\0\x63\0k\0\x65\0r\0\0\0,\0\x44\0:\0/\0W\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0t\0\x65\0m\0p\0l\0\x61\0t\0\x65\0s)", "@Variant(\0\0\0\v\0\0\0\x2\0\0\0\b\0\x66\0i\0l\0\x65\0\0\0,\0\x44\0:\0/\0W\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0t\0\x65\0m\0p\0l\0\x61\0t\0\x65\0s)", @Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0s\0\x65\0t\0t\0i\0n\0g\0s\0\0\0\0), "@Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0s\0n\0i\0p\0p\0\x65\0t\0s\0\0\0,\0\x44\0:\0/\0W\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0t\0\x65\0m\0p\0l\0\x61\0t\0\x65\0s)", "@Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0t\0\x65\0s\0t\0\x63\0\x61\0s\0\x65\0\0\0,\0\x44\0:\0/\0W\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0t\0\x65\0m\0p\0l\0\x61\0t\0\x65\0s)"
+names_and_paths=@Variant(\0\0\0\v\0\0\0\x2\0\0\0\xe\0\x63\0h\0\x65\0\x63\0k\0\x65\0r\0\0\0>\0\x44\0:\0/\0W\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0\x63\0o\0\x64\0\x65\0\x66\0o\0r\0\x63\0\x65\0s\0/\0s\0r\0\x63\0/\0\x39\0\x30\0\x30), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\b\0\x66\0i\0l\0\x65\0\0\0>\0\x44\0:\0/\0W\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0\x63\0o\0\x64\0\x65\0\x66\0o\0r\0\x63\0\x65\0s\0/\0s\0r\0\x63\0/\0\x39\0\x30\0\x30), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0s\0\x65\0t\0t\0i\0n\0g\0s\0\0\0\0), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0t\0\x65\0s\0t\0\x63\0\x61\0s\0\x65\0\0\0>\0\x44\0:\0/\0W\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0/\0\x63\0o\0\x64\0\x65\0\x66\0o\0r\0\x63\0\x65\0s\0/\0s\0r\0\x63\0/\0\x39\0\x30\0\x30)
 action\open_file\uses=${file}
 action\open_file\changes="file, testcase, checker"
 action\save_file\uses=${file}
